@@ -50,5 +50,30 @@ window.onload = function(){
 // }
 
 //-----------------------------------------New String methods---------------------------
-var str="AAAA";
-console.log()
+// var str="Good";
+// console.log(str.repeat(6))
+// this.console.log(str.startsWith("Good"))
+// this.console.log(str.endsWith("bye"))
+// this.console.log(str.includes("Good"))
+
+// }
+
+/*------New String Methods-------
+ -repeat
+ -startsWith
+ -endWith
+ -includes
+ */
+
+ //------------------------------------__Arrow Function-----------------
+//  var greet = ()=>{
+//      this.console.log("hello world")
+//  }
+//  greet();
+// }
+
+//------------------------Sets------------------
+var names = new Set();
+names.add("shaun").add("tikam").add("ryu");
+this.console.log(names)
+}
