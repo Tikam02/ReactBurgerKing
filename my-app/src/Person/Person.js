@@ -1,6 +1,11 @@
 import React from 'react'
-import './Person.css'
+import Radium from 'radium';
+import './Person.css';
+
+
+
 const person = (props) => {
+
     return (
         <div className="Person">
             <p onClick={props.click} > I'm  {props.name} , And I Am  {props.age}  years old!</p>  
